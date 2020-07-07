@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+.bg-color--white {
+  color: white;
+}
+.bg-color--green {
+  color: green;
+}
+.bg-color--gray {
+  color: gray;
+}
+.bg-color--sky {
+  color: sky;
+}
+.bg-color--black {
+  color: black;
+}
+
+.font-sz, body {
+  font-size: 16px;
+}
+.font-sz--text-extra-small, .mid-section .text--percentage-color {
+  font-size: 12px;
+}
+.font-sz--text-large {
+  font-size: 20px;
+}
+
+.btn {
+  border-radius: 5px;
+}
+.btn--red {
+  color: red;
+}
+.btn--green {
+  color: green;
+}
+.btn--sky {
+  color: sky;
+}
+
+* body {
+  min-height: 100vh;
+}
+
+* img {
+  display: block;
+  margin: auto;
+}
+
+body {
+  background: linear-gradient(to right, #ACB6E5, #74ebd5);
+  font-family: "Lato", sans-serif;
+  color: black;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Slab", serif;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  border-bottom: 5px solid green;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.header .avatar .avatar--img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+.header .head--section-bio {
+  text-align: center;
+  color: #05b681;
+}
+.header span {
+  color: black;
+}
+.header a {
+  border-radius: 5px;
+  background-color: green;
+  padding: 7px;
+  color: white;
+}
+
+.mid-section {
+  display: flex;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  padding: 2em;
+  justify-content: center;
+  background-color: white;
+  border-bottom: 5px solid green;
+  padding: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+.mid-section a {
+  border-radius: 5px;
+  background-color: green;
+  padding: 7px;
+  color: white;
+}
+.mid-section .left--section {
+  width: 45%;
+  padding-right: 20px;
+  border-right: 4px dashed #1cb1c5;
+}
+.mid-section .right--section {
+  width: 55%;
+  padding-left: 25px;
+}
+.mid-section .text--percentage-color {
+  text-align: center;
+  color: white;
+}
+.mid-section .box--blue-70 {
+  width: 70%;
+  background-color: #249ec4;
+  height: 20px;
+}
+.mid-section .box--blue-80 {
+  width: 80%;
+  background-color: #249ec4;
+}
+.mid-section .box--blue-60 {
+  width: 60%;
+  background-color: #249ec4;
+  height: 20px;
+}
+.mid-section .border--gray {
+  width: 100%;
+  height: 20px;
+  background-color: #e9ecef;
+}
